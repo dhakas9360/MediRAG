@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     # 4. Build FAISS index
     index = build_faiss_index(embeddings)
-
+    # builded not all 
     # 5. Save index and metadata
     save_index_and_metadata(index, INDEX_PATH, METADATA_PATH, df)
     print(f"Metadata saved to {METADATA_PATH}")
